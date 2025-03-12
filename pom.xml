@@ -13,7 +13,7 @@
 	<groupId>dev.ikm.jpms</groupId>
 	<artifactId>jsr305</artifactId>
 	<packaging>jar</packaging>
-	<version>${core.artifact.version}-${core.artifact.release}</version>
+	<version>3.0.2-r7-AR-299_Java23</version>
 
 	<properties>
 		<!-- change release here-->
