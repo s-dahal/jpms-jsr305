@@ -1,5 +1,5 @@
-# jpms-activej-bytebuf
-The jpms-activej-bytebuf repository is dedicated to making the activej-bytebuf module compliant with the Java Platform Module System (JPMS). This compliance ensures that the activej-bytebuf library can be seamlessly integrated into modular Java applications, leveraging the benefits of JPMS such as improved encapsulation, security, and maintainability.
+# jpms-jsr305
+The jpms-jsr305 repository is dedicated to making the jsr305 module compliant with the Java Platform Module System (JPMS). This compliance ensures that the jsr305 library can be seamlessly integrated into modular Java applications, leveraging the benefits of JPMS such as improved encapsulation, security, and maintainability.
 
 ## Features
 
@@ -16,17 +16,17 @@ Add the following dependency to your pom.xml:
 ```xml
 <dependency>
     <groupId>dev.ikm.jpms</groupId>
-	<artifactId>activej-bytebuf</artifactId>
-    <version>${latest-jpms-activej-bytebuf-version}</version>
+	<artifactId>jsr305</artifactId>
+    <version>${latest-jpms-jsr305-version}</version>
 </dependency>
 ```
 
 Add the following dependency to your build.gradle:
 ```groovy
-implementation 'dev.ikm.jpms:jsr305:${latest-jpms-activej-bytebuf-version}'
+implementation 'dev.ikm.jpms:antlr4-runtime:${latest-jpms-jsr305-version}'
 ```
 
-In your module descriptor (module-info.java), declare the dependency on the jpms-activej-bytebuf module:
+In your module descriptor (module-info.java), declare the dependency on the jpms-jsr305 module:
 
 ```java
 module your.module.name {
