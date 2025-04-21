@@ -23,19 +23,19 @@ Add the following dependency to your pom.xml:
 
 Add the following dependency to your build.gradle:
 ```groovy
-implementation 'dev.ikm.jpms:jsr305:${latest-jpms-jsr305-version}'
+implementation 'dev.ikm.jpms:javax.annotation:${latest-jpms-jsr305-version}'
 ```
 
 In your module descriptor (module-info.java), declare the dependency on the jpms-jsr305 module:
 
 ```java
 module your.module.name {
-    requires dev.ikm.jpms.activej.bytebuf;
+    requires dev.ikm.jpms.javax.annotation;
 }
 ```
 
 
 ## Issues and Contributions
-Technical and non-technical issues can be reported to the [Issue Tracker](https://github.com/ikmdev/jsr305/issues).
+Technical and non-technical issues can be reported to the [Issue Tracker](https://github.com/ikmdev/jpms-jsr305/issues).
 
 Contributions can be submitted via pull requests. Please check the [contribution guide](doc/how-to-contribute.md) for more details.
